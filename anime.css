@@ -1,0 +1,47 @@
+
+body{
+    background-color: rgb(68, 75, 83);
+}
+
+#heading{
+    text-align: center;
+    background-color: dimgray;
+    text-shadow: #30443f;
+    
+}
+#heading :hover{
+    background-color: whitesmoke;
+}
+
+.bg-video{
+    position: absolute;
+    right:0;
+    bottom:0;
+    top:0;    
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9){
+    .bg-video{
+        width:100%;
+        height:auto;
+    }
+}
+
+img{
+    height: 170px;
+    width: 170px;
+    flex-direction: row;
+    padding: 60px;
+    
+}
+
+.css{
+    background-color:rgb(16, 37, 52);
+    font-size:50px;
+    font-family: georgia;
+    font-style:italic;
+    font-weight:bold;
+    color:rgb(171, 170, 170);
+    text-shadow: 2px 2px 8px #0e0203;
+}
